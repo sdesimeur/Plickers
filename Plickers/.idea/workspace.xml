@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7b565666-8f61-4bce-9f9e-64a25776b370" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Plickers/Data Source/Plickers Server API Commands/PlickersServerApiCommand.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Plickers/Data Source/Plickers Server API Commands/PlickersServerApiCommand.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Plickers/Data Source/Plickers Server API Commands/PlickersServerApiCommandDelegate.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Plickers/Data Source/Plickers Server API Commands/PlickersServerApiCommandPoll.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Plickers/Data Source/Plickers Server API Commands/PlickersServerApiCommandPoll.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Plickers/Data Source/Plickers Server Source/PlickersServerSource.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Plickers/Data Source/Plickers Server Source/PlickersServerSourceInterview.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Plickers/Data Source/Plickers Server Source/PlickersServerSourceInterview.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Plickers/Data Source/PlickersPollDataSource.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Plickers/Data Source/PlickersPollDataSource.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Plickers/PlickersPollDataSourceDelegate.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Plickers/PlickersPollQuestionResponse.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Plickers/PlickersPollQuestionResponse.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Plickers/PlickersPollSection.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Plickers/PlickersPollSection.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Plickers/PlickersPollStudent.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Plickers/PlickersPollStudent.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Plickers/PlickersPollStudentResponse.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Plickers/PlickersPollStudentResponse.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Plickers/PlickersServerApiCommand+Factory.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Plickers/PlickersServerApiCommand+Factory.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Plickers/Poll Data/PlickersPoll.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Plickers/Poll Data/PlickersPoll.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Plickers/Poll Data/PlickersPollQuestion.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Plickers/Poll Data/PlickersPollQuestion.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Plickers/Poll Data/PlickersPollQuestionChoice.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Plickers/Poll Data/PlickersPollQuestionChoice.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Plickers.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/Plickers.xcodeproj/project.pbxproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Plickers/Info.plist" afterPath="$PROJECT_DIR$/Plickers/Info.plist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Plickers/MasterViewController.h" afterPath="$PROJECT_DIR$/Plickers/MasterViewController.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Plickers/MasterViewController.m" afterPath="$PROJECT_DIR$/Plickers/MasterViewController.m" />
+    </list>
+    <ignored path="Plickers.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="Plickers" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Plickers/Poll Data/PlickersPollQuestionResponse.h" />
+        <option value="$PROJECT_DIR$/Plickers/Poll Data/PlickersPollQuestionChoice.h" />
+        <option value="$PROJECT_DIR$/Plickers/PlickersPollQuestionResponse.m" />
+        <option value="$PROJECT_DIR$/Plickers/Data Source/Plickers Server API Commands/PlickersServerApiCommandPoll.m" />
+        <option value="$PROJECT_DIR$/Plickers/Data Source/Plickers Server API Commands/PlickersServerApiCommandDelegate.h" />
+        <option value="$PROJECT_DIR$/Plickers/Data Source/Plickers Server Source/PlickersServerSource.h" />
+        <option value="$PROJECT_DIR$/Plickers/PlickersServerApiCommand+Factory.h" />
+        <option value="$PROJECT_DIR$/Plickers/PlickersServerApiCommand+Factory.m" />
+        <option value="$PROJECT_DIR$/Plickers/Poll Data/PlickersPollQuestion.h" />
+        <option value="$PROJECT_DIR$/Plickers/Poll Data/PlickersPoll.h" />
+        <option value="$PROJECT_DIR$/Plickers/Poll Data/PlickersPoll.m" />
+        <option value="$PROJECT_DIR$/Plickers/PlickersPollDataSourceDelegate.h" />
+        <option value="$PROJECT_DIR$/Plickers/MasterViewController.h" />
+        <option value="$PROJECT_DIR$/Plickers/PlickersPollQuestionResponse.h" />
+        <option value="$PROJECT_DIR$/Plickers/Poll Data/PlickersPollQuestion.m" />
+        <option value="$PROJECT_DIR$/Plickers/PlickersPollStudentResponse.h" />
+        <option value="$PROJECT_DIR$/Plickers/PlickersPollStudentResponse.m" />
+        <option value="$PROJECT_DIR$/Plickers/PlickersPollStudent.h" />
+        <option value="$PROJECT_DIR$/Plickers/PlickersPollStudent.m" />
+        <option value="$PROJECT_DIR$/Plickers/PlickersPollSection.h" />
+        <option value="$PROJECT_DIR$/Plickers/MasterViewController.m" />
+        <option value="$PROJECT_DIR$/Plickers/PlickersPollSection.m" />
+        <option value="$PROJECT_DIR$/Plickers/Data Source/PlickersPollDataSource.m" />
+        <option value="$PROJECT_DIR$/Plickers/Data Source/PlickersPollDataSource.h" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="873" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource ProjectPane="true" />
+      <autoscrollFromSource ProjectPane="true" />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane />
+      </pane>
+      <pane id="Cidr.FilesView" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="OBJC.PRESERVED_TARGET_SELECTION" value="Plickers" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="RunManager" selected="Application.Plickers">
+    <configuration default="true" type="AppleRunConfiguration" factoryName="Application" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Plickers" TARGET_NAME="Plickers" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Plickers" RUN_TARGET_NAME="Plickers" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="OCGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Plickers" TARGET_NAME="Plickers" CONFIG_NAME="Debug" TEST_MODE="SUITE_TEST">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="OCUnitRunConfiguration" factoryName="XCTest/Kiwi" PASS_PARENT_ENVS="FALSE" TEST_MODE="SUITE_TEST">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="Plickers" type="AppleRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Plickers" TARGET_NAME="Plickers" CONFIG_NAME="Debug" SCHEME_NAME="Plickers" RUN_TARGET_PROJECT_NAME="Plickers" RUN_TARGET_NAME="Plickers" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <method />
+    </configuration>
+    <list size="1">
+      <item index="0" class="java.lang.String" itemvalue="Application.Plickers" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7b565666-8f61-4bce-9f9e-64a25776b370" name="Default" comment="" />
+      <created>1455001102130</created>
+      <option name="number" value="Default" />
+      <updated>1455001102130</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="873" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290653" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24947146" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32950193" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39948782" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="13" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+</project>

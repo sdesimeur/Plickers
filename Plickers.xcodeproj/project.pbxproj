@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B0C7C3D71ED5C0EAADAC675F /* PlickersPollQuestionResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = B0C7C621B43E41DEB392FDAC /* PlickersPollQuestionResponse.m */; };
+		B0C7C84FD536A109523CE0AD /* PlickersPollStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = B0C7C3C44795554921BF303F /* PlickersPollStudent.m */; };
+		B0C7CC796C02323EBCB25BB2 /* PlickersPollStudentResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = B0C7C128E2520AACFD262EF2 /* PlickersPollStudentResponse.m */; };
+		B0C7CD7A504D8B9EEB33CA13 /* PlickersServerApiCommand+Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = B0C7CAACF99007126E24D137 /* PlickersServerApiCommand+Factory.m */; };
+		B0C7CED976E9F89BBFC80F40 /* PlickersPollSection.m in Sources */ = {isa = PBXBuildFile; fileRef = B0C7C862E59B6D119C0EC7E0 /* PlickersPollSection.m */; };
 		D91677471C69A71B00A991FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D91677461C69A71B00A991FD /* main.m */; };
 		D916774A1C69A71B00A991FD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D91677491C69A71B00A991FD /* AppDelegate.m */; };
 		D916774D1C69A71B00A991FD /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D916774C1C69A71B00A991FD /* MasterViewController.m */; };
@@ -14,9 +19,27 @@
 		D91677531C69A71B00A991FD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D91677511C69A71B00A991FD /* Main.storyboard */; };
 		D91677551C69A71B00A991FD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D91677541C69A71B00A991FD /* Assets.xcassets */; };
 		D91677581C69A71C00A991FD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D91677561C69A71C00A991FD /* LaunchScreen.storyboard */; };
+		D9EDFAFB1C69A7C400D18643 /* PlickersPollDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = D9EDFAFA1C69A7C400D18643 /* PlickersPollDataSource.m */; };
+		D9EDFB021C69AA8F00D18643 /* PlickersServerApiCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = D9EDFB011C69AA8F00D18643 /* PlickersServerApiCommand.m */; };
+		D9EDFB051C69AAC000D18643 /* PlickersServerSourceInterview.m in Sources */ = {isa = PBXBuildFile; fileRef = D9EDFB041C69AAC000D18643 /* PlickersServerSourceInterview.m */; };
+		D9EDFB0A1C69AF8400D18643 /* PlickersServerApiCommandPoll.m in Sources */ = {isa = PBXBuildFile; fileRef = D9EDFB091C69AF8400D18643 /* PlickersServerApiCommandPoll.m */; };
+		D9EDFB0E1C69BE3A00D18643 /* PlickersPoll.m in Sources */ = {isa = PBXBuildFile; fileRef = D9EDFB0D1C69BE3A00D18643 /* PlickersPoll.m */; };
+		D9EDFB111C69C19900D18643 /* PlickersPollQuestion.m in Sources */ = {isa = PBXBuildFile; fileRef = D9EDFB101C69C19900D18643 /* PlickersPollQuestion.m */; };
+		D9EDFB141C69C24B00D18643 /* PlickersPollQuestionChoice.m in Sources */ = {isa = PBXBuildFile; fileRef = D9EDFB131C69C24B00D18643 /* PlickersPollQuestionChoice.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B0C7C0FAD6562F534BF1AD4E /* PlickersPollDataSourceDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlickersPollDataSourceDelegate.h; sourceTree = "<group>"; };
+		B0C7C128E2520AACFD262EF2 /* PlickersPollStudentResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlickersPollStudentResponse.m; sourceTree = "<group>"; };
+		B0C7C1BF053765ACF02F2942 /* PlickersServerApiCommand+Factory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PlickersServerApiCommand+Factory.h"; sourceTree = "<group>"; };
+		B0C7C269EDAEE76ACCBC26EC /* PlickersPollStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlickersPollStudent.h; sourceTree = "<group>"; };
+		B0C7C3C44795554921BF303F /* PlickersPollStudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlickersPollStudent.m; sourceTree = "<group>"; };
+		B0C7C515F7352281BF4A7C42 /* PlickersPollSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlickersPollSection.h; sourceTree = "<group>"; };
+		B0C7C621B43E41DEB392FDAC /* PlickersPollQuestionResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlickersPollQuestionResponse.m; sourceTree = "<group>"; };
+		B0C7C862E59B6D119C0EC7E0 /* PlickersPollSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlickersPollSection.m; sourceTree = "<group>"; };
+		B0C7C8A2643B532459FE45CE /* PlickersPollStudentResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlickersPollStudentResponse.h; sourceTree = "<group>"; };
+		B0C7CAACF99007126E24D137 /* PlickersServerApiCommand+Factory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PlickersServerApiCommand+Factory.m"; sourceTree = "<group>"; };
+		B0C7CFDEC1C3485CADD351F5 /* PlickersPollQuestionResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlickersPollQuestionResponse.h; sourceTree = "<group>"; };
 		D91677421C69A71B00A991FD /* Plickers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Plickers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D91677461C69A71B00A991FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D91677481C69A71B00A991FD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -29,6 +52,22 @@
 		D91677541C69A71B00A991FD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D91677571C69A71C00A991FD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D91677591C69A71C00A991FD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9EDFAF91C69A7C400D18643 /* PlickersPollDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlickersPollDataSource.h; path = "Data Source/PlickersPollDataSource.h"; sourceTree = "<group>"; };
+		D9EDFAFA1C69A7C400D18643 /* PlickersPollDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlickersPollDataSource.m; path = "Data Source/PlickersPollDataSource.m"; sourceTree = "<group>"; };
+		D9EDFAFF1C69AA3300D18643 /* PlickersServerSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlickersServerSource.h; path = "Data Source/Plickers Server Source/PlickersServerSource.h"; sourceTree = "<group>"; };
+		D9EDFB001C69AA8F00D18643 /* PlickersServerApiCommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlickersServerApiCommand.h; path = "Data Source/Plickers Server API Commands/PlickersServerApiCommand.h"; sourceTree = "<group>"; };
+		D9EDFB011C69AA8F00D18643 /* PlickersServerApiCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlickersServerApiCommand.m; path = "Data Source/Plickers Server API Commands/PlickersServerApiCommand.m"; sourceTree = "<group>"; };
+		D9EDFB031C69AAC000D18643 /* PlickersServerSourceInterview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlickersServerSourceInterview.h; path = "Data Source/Plickers Server Source/PlickersServerSourceInterview.h"; sourceTree = "<group>"; };
+		D9EDFB041C69AAC000D18643 /* PlickersServerSourceInterview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlickersServerSourceInterview.m; path = "Data Source/Plickers Server Source/PlickersServerSourceInterview.m"; sourceTree = "<group>"; };
+		D9EDFB081C69AF8400D18643 /* PlickersServerApiCommandPoll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlickersServerApiCommandPoll.h; path = "Data Source/Plickers Server API Commands/PlickersServerApiCommandPoll.h"; sourceTree = "<group>"; };
+		D9EDFB091C69AF8400D18643 /* PlickersServerApiCommandPoll.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlickersServerApiCommandPoll.m; path = "Data Source/Plickers Server API Commands/PlickersServerApiCommandPoll.m"; sourceTree = "<group>"; };
+		D9EDFB0B1C69AFDC00D18643 /* PlickersServerApiCommandDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlickersServerApiCommandDelegate.h; path = "Data Source/Plickers Server API Commands/PlickersServerApiCommandDelegate.h"; sourceTree = "<group>"; };
+		D9EDFB0C1C69BE3A00D18643 /* PlickersPoll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlickersPoll.h; path = "Poll Data/PlickersPoll.h"; sourceTree = "<group>"; };
+		D9EDFB0D1C69BE3A00D18643 /* PlickersPoll.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlickersPoll.m; path = "Poll Data/PlickersPoll.m"; sourceTree = "<group>"; };
+		D9EDFB0F1C69C19900D18643 /* PlickersPollQuestion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlickersPollQuestion.h; path = "Poll Data/PlickersPollQuestion.h"; sourceTree = "<group>"; };
+		D9EDFB101C69C19900D18643 /* PlickersPollQuestion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlickersPollQuestion.m; path = "Poll Data/PlickersPollQuestion.m"; sourceTree = "<group>"; };
+		D9EDFB121C69C24B00D18643 /* PlickersPollQuestionChoice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlickersPollQuestionChoice.h; path = "Poll Data/PlickersPollQuestionChoice.h"; sourceTree = "<group>"; };
+		D9EDFB131C69C24B00D18643 /* PlickersPollQuestionChoice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlickersPollQuestionChoice.m; path = "Poll Data/PlickersPollQuestionChoice.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +100,7 @@
 		D91677441C69A71B00A991FD /* Plickers */ = {
 			isa = PBXGroup;
 			children = (
+				D9EDFAF81C69A78700D18643 /* Data Source */,
 				D91677481C69A71B00A991FD /* AppDelegate.h */,
 				D91677491C69A71B00A991FD /* AppDelegate.m */,
 				D916774B1C69A71B00A991FD /* MasterViewController.h */,
@@ -82,6 +122,64 @@
 				D91677461C69A71B00A991FD /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D9EDFAF81C69A78700D18643 /* Data Source */ = {
+			isa = PBXGroup;
+			children = (
+				D9EDFAFE1C69AA0800D18643 /* Plickers Server Source */,
+				D9EDFAFD1C69A9CD00D18643 /* Plickers API Commands */,
+				D9EDFAFC1C69A82F00D18643 /* Poll Data */,
+				D9EDFAF91C69A7C400D18643 /* PlickersPollDataSource.h */,
+				D9EDFAFA1C69A7C400D18643 /* PlickersPollDataSource.m */,
+				B0C7C0FAD6562F534BF1AD4E /* PlickersPollDataSourceDelegate.h */,
+			);
+			name = "Data Source";
+			sourceTree = "<group>";
+		};
+		D9EDFAFC1C69A82F00D18643 /* Poll Data */ = {
+			isa = PBXGroup;
+			children = (
+				D9EDFB0C1C69BE3A00D18643 /* PlickersPoll.h */,
+				D9EDFB0D1C69BE3A00D18643 /* PlickersPoll.m */,
+				D9EDFB0F1C69C19900D18643 /* PlickersPollQuestion.h */,
+				D9EDFB101C69C19900D18643 /* PlickersPollQuestion.m */,
+				D9EDFB121C69C24B00D18643 /* PlickersPollQuestionChoice.h */,
+				D9EDFB131C69C24B00D18643 /* PlickersPollQuestionChoice.m */,
+				B0C7C621B43E41DEB392FDAC /* PlickersPollQuestionResponse.m */,
+				B0C7CFDEC1C3485CADD351F5 /* PlickersPollQuestionResponse.h */,
+				B0C7C3C44795554921BF303F /* PlickersPollStudent.m */,
+				B0C7C269EDAEE76ACCBC26EC /* PlickersPollStudent.h */,
+				B0C7C128E2520AACFD262EF2 /* PlickersPollStudentResponse.m */,
+				B0C7C8A2643B532459FE45CE /* PlickersPollStudentResponse.h */,
+				B0C7C862E59B6D119C0EC7E0 /* PlickersPollSection.m */,
+				B0C7C515F7352281BF4A7C42 /* PlickersPollSection.h */,
+			);
+			name = "Poll Data";
+			sourceTree = "<group>";
+		};
+		D9EDFAFD1C69A9CD00D18643 /* Plickers API Commands */ = {
+			isa = PBXGroup;
+			children = (
+				D9EDFB001C69AA8F00D18643 /* PlickersServerApiCommand.h */,
+				D9EDFB011C69AA8F00D18643 /* PlickersServerApiCommand.m */,
+				D9EDFB081C69AF8400D18643 /* PlickersServerApiCommandPoll.h */,
+				D9EDFB091C69AF8400D18643 /* PlickersServerApiCommandPoll.m */,
+				D9EDFB0B1C69AFDC00D18643 /* PlickersServerApiCommandDelegate.h */,
+				B0C7CAACF99007126E24D137 /* PlickersServerApiCommand+Factory.m */,
+				B0C7C1BF053765ACF02F2942 /* PlickersServerApiCommand+Factory.h */,
+			);
+			name = "Plickers API Commands";
+			sourceTree = "<group>";
+		};
+		D9EDFAFE1C69AA0800D18643 /* Plickers Server Source */ = {
+			isa = PBXGroup;
+			children = (
+				D9EDFAFF1C69AA3300D18643 /* PlickersServerSource.h */,
+				D9EDFB031C69AAC000D18643 /* PlickersServerSourceInterview.h */,
+				D9EDFB041C69AAC000D18643 /* PlickersServerSourceInterview.m */,
+			);
+			name = "Plickers Server Source";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,10 +252,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9EDFB0E1C69BE3A00D18643 /* PlickersPoll.m in Sources */,
+				D9EDFB111C69C19900D18643 /* PlickersPollQuestion.m in Sources */,
+				D9EDFB141C69C24B00D18643 /* PlickersPollQuestionChoice.m in Sources */,
 				D916774A1C69A71B00A991FD /* AppDelegate.m in Sources */,
 				D916774D1C69A71B00A991FD /* MasterViewController.m in Sources */,
+				D9EDFB051C69AAC000D18643 /* PlickersServerSourceInterview.m in Sources */,
+				D9EDFB021C69AA8F00D18643 /* PlickersServerApiCommand.m in Sources */,
 				D91677471C69A71B00A991FD /* main.m in Sources */,
+				D9EDFB0A1C69AF8400D18643 /* PlickersServerApiCommandPoll.m in Sources */,
 				D91677501C69A71B00A991FD /* DetailViewController.m in Sources */,
+				D9EDFAFB1C69A7C400D18643 /* PlickersPollDataSource.m in Sources */,
+				B0C7C3D71ED5C0EAADAC675F /* PlickersPollQuestionResponse.m in Sources */,
+				B0C7CD7A504D8B9EEB33CA13 /* PlickersServerApiCommand+Factory.m in Sources */,
+				B0C7C84FD536A109523CE0AD /* PlickersPollStudent.m in Sources */,
+				B0C7CC796C02323EBCB25BB2 /* PlickersPollStudentResponse.m in Sources */,
+				B0C7CED976E9F89BBFC80F40 /* PlickersPollSection.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -306,6 +416,7 @@
 				D916775E1C69A71C00A991FD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

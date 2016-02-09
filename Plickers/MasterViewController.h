@@ -7,10 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PlickersPollDataSourceDelegate.h"
+
 
 @class DetailViewController;
 
-@interface MasterViewController : UITableViewController
+@interface MasterViewController : UITableViewController <PlickersPollDataSourceDelegate>
 
 @property (strong, nonatomic) DetailViewController *detailViewController;
 
