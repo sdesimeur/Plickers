@@ -10,8 +10,10 @@
 		B0C7C3D71ED5C0EAADAC675F /* PlickersPollQuestionResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = B0C7C621B43E41DEB392FDAC /* PlickersPollQuestionResponse.m */; };
 		B0C7C84FD536A109523CE0AD /* PlickersPollStudent.m in Sources */ = {isa = PBXBuildFile; fileRef = B0C7C3C44795554921BF303F /* PlickersPollStudent.m */; };
 		B0C7CC796C02323EBCB25BB2 /* PlickersPollStudentResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = B0C7C128E2520AACFD262EF2 /* PlickersPollStudentResponse.m */; };
+		B0C7CD76347E98D0C0461367 /* PlickersStudentTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B0C7CF30D98663D3BBB19B2A /* PlickersStudentTableViewCell.m */; };
 		B0C7CD7A504D8B9EEB33CA13 /* PlickersServerApiCommand+Factory.m in Sources */ = {isa = PBXBuildFile; fileRef = B0C7CAACF99007126E24D137 /* PlickersServerApiCommand+Factory.m */; };
 		B0C7CED976E9F89BBFC80F40 /* PlickersPollSection.m in Sources */ = {isa = PBXBuildFile; fileRef = B0C7C862E59B6D119C0EC7E0 /* PlickersPollSection.m */; };
+		B0C7CF211B6EF90FA238CA50 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B0C7C27E08BBA3EC004FA738 /* UIKit.framework */; };
 		D91677471C69A71B00A991FD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D91677461C69A71B00A991FD /* main.m */; };
 		D916774A1C69A71B00A991FD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D91677491C69A71B00A991FD /* AppDelegate.m */; };
 		D916774D1C69A71B00A991FD /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D916774C1C69A71B00A991FD /* MasterViewController.m */; };
@@ -33,12 +35,15 @@
 		B0C7C128E2520AACFD262EF2 /* PlickersPollStudentResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlickersPollStudentResponse.m; sourceTree = "<group>"; };
 		B0C7C1BF053765ACF02F2942 /* PlickersServerApiCommand+Factory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PlickersServerApiCommand+Factory.h"; sourceTree = "<group>"; };
 		B0C7C269EDAEE76ACCBC26EC /* PlickersPollStudent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlickersPollStudent.h; sourceTree = "<group>"; };
+		B0C7C27E08BBA3EC004FA738 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		B0C7C3C44795554921BF303F /* PlickersPollStudent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlickersPollStudent.m; sourceTree = "<group>"; };
 		B0C7C515F7352281BF4A7C42 /* PlickersPollSection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlickersPollSection.h; sourceTree = "<group>"; };
 		B0C7C621B43E41DEB392FDAC /* PlickersPollQuestionResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlickersPollQuestionResponse.m; sourceTree = "<group>"; };
+		B0C7C7308A29984BE563FDCF /* PlickersStudentTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlickersStudentTableViewCell.h; sourceTree = "<group>"; };
 		B0C7C862E59B6D119C0EC7E0 /* PlickersPollSection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlickersPollSection.m; sourceTree = "<group>"; };
 		B0C7C8A2643B532459FE45CE /* PlickersPollStudentResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlickersPollStudentResponse.h; sourceTree = "<group>"; };
 		B0C7CAACF99007126E24D137 /* PlickersServerApiCommand+Factory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "PlickersServerApiCommand+Factory.m"; sourceTree = "<group>"; };
+		B0C7CF30D98663D3BBB19B2A /* PlickersStudentTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlickersStudentTableViewCell.m; sourceTree = "<group>"; };
 		B0C7CFDEC1C3485CADD351F5 /* PlickersPollQuestionResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlickersPollQuestionResponse.h; sourceTree = "<group>"; };
 		D91677421C69A71B00A991FD /* Plickers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Plickers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D91677461C69A71B00A991FD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -75,17 +80,36 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0C7CF211B6EF90FA238CA50 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B0C7C92E07558DF60EFA1563 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B0C7CF30D98663D3BBB19B2A /* PlickersStudentTableViewCell.m */,
+				B0C7C7308A29984BE563FDCF /* PlickersStudentTableViewCell.h */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B0C7CD4FF746B64C8774DE2B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B0C7C27E08BBA3EC004FA738 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D91677391C69A71B00A991FD = {
 			isa = PBXGroup;
 			children = (
 				D91677441C69A71B00A991FD /* Plickers */,
 				D91677431C69A71B00A991FD /* Products */,
+				B0C7CD4FF746B64C8774DE2B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -112,6 +136,7 @@
 				D91677561C69A71C00A991FD /* LaunchScreen.storyboard */,
 				D91677591C69A71C00A991FD /* Info.plist */,
 				D91677451C69A71B00A991FD /* Supporting Files */,
+				B0C7C92E07558DF60EFA1563 /* Views */,
 			);
 			path = Plickers;
 			sourceTree = "<group>";
@@ -268,6 +293,7 @@
 				B0C7C84FD536A109523CE0AD /* PlickersPollStudent.m in Sources */,
 				B0C7CC796C02323EBCB25BB2 /* PlickersPollStudentResponse.m in Sources */,
 				B0C7CED976E9F89BBFC80F40 /* PlickersPollSection.m in Sources */,
+				B0C7CD76347E98D0C0461367 /* PlickersStudentTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

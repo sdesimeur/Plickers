@@ -10,10 +10,9 @@
 #import "DetailViewController.h"
 #import "PlickersPollDataSource.h"
 #import "PlickersServerSourceInterview.h"
-#import "PlickersPoll.h"
-#import "PlickersPollQuestion.h"
 #import "PlickersPollSection.h"
 #import "PlickersPollStudent.h"
+#import "PlickersStudentTableViewCell.h"
 
 
 @interface MasterViewController ()
@@ -89,26 +88,19 @@
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
+    PlickersStudentTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
 
-//    PlickersPoll *poll = [[self.plickersDataSource allPollData] objectAtIndex:indexPath.row];
     PlickersPollStudent *student = [[[[self.plickersDataSource allStudentsDividedIntoSections] objectAtIndex:indexPath.section] sortedStudents] objectAtIndex:indexPath.row];
-    cell.textLabel.text = student.email;
+    [cell updateCellWithStudent:student];
     return cell;
 }
 
-//- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath {
-//    // Return NO if you do not want the specified item to be editable.
-//    return YES;
-//}
-//
-//- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath {
-//    if (editingStyle == UITableViewCellEditingStyleDelete) {
-//        [self.objects removeObjectAtIndex:indexPath.row];
-//        [tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
-//    } else if (editingStyle == UITableViewCellEditingStyleInsert) {
-//        // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view.
-//    }
-//}
+- (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
+    return [NSString stringWithFormat:@"Section %i", section+1];
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForHeaderInSection:(NSInteger)section {
+    return 44;
+}
 
 @end

@@ -9,6 +9,7 @@
 #import "PlickersPollStudentResponse.h"
 #import "PlickersPollQuestion.h"
 #import "PlickersPollQuestionResponse.h"
+#import "PlickersPollQuestionChoice.h"
 
 
 @implementation PlickersPollStudentResponse
@@ -17,6 +18,13 @@
     if (self = [super init]) {
         _question = question;
         _response = response;
+
+        for (PlickersPollQuestionChoice *choice in question.choices) {
+            if ([choice.choiceLetter.lowercaseString isEqualToString:response.answer.lowercaseString]) {
+                _correct = true;
+                break;
+            }
+        }
     }
 
     return self;

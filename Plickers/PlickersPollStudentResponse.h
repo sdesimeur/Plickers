@@ -14,6 +14,7 @@
 
 @property (nonatomic, readonly, strong) PlickersPollQuestion *question;
 @property (nonatomic, readonly, strong) PlickersPollQuestionResponse *response;
+@property (nonatomic, readonly) BOOL correct;
 
 - (instancetype)initWithQuestion:(PlickersPollQuestion *)question response:(PlickersPollQuestionResponse *)response;
 
